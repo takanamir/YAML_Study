@@ -1,0 +1,17 @@
+# マッピング、ハッシュ
+
+# {name: taguchi, score: 90}
+# name: taguchi
+# score: 90
+
+# name : taguchi
+# score: 90
+
+# エラー
+# name:taguchi
+# score: 90
+
+name: taguchi
+score:
+  game-1: 30
+  game-2: 40

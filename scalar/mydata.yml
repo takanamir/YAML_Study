@@ -1,0 +1,8 @@
+- taguchi # 文字列
+- 52 # 数値
+- 33.5
+- true # true/false, yes/no, on/off
+- null # ~
+- 2015-07-18 # 日付
+- "true"
+- '555'
