@@ -1,0 +1,21 @@
+# ハッシュをマージする <<
+# データベースに myapp_dev を使っていて、そのユーザー名が dbuser で、
+# パスワードが dbpassword だったとする
+# また、他にもテスト環境や本番環境があるとする
+# 共通部分を、アンカーとエイリアスを使ってもう少しすっきり書く
+
+common: &common
+  user: dbuser
+  password: dbpassword
+
+development:
+  database: myapp_dev
+  <<: *common
+
+production:
+  database: myapp_prod
+  <<: *common
+
+test:
+  database: myapp_test
+  <<: *common

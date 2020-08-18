@@ -1,0 +1,48 @@
+# 改行
+
+# this
+# is
+# a
+# pen.
+
+# this\nis\na\npen.\n
+- |
+  this
+  is
+  a
+  pen.
+
+# this\nis\na\npen.\n\n
+- |+
+  this
+  is
+  a
+  pen.
+
+# this\nis\na\npen.
+- |-
+  this
+  is
+  a
+  pen.
+
+# this is a pen.\n
+- >
+  this
+  is
+  a
+  pen.
+
+# this is a pen.\n\n
+- >+
+  this
+  is
+  a
+  pen.
+
+# this is a pen.
+- >-
+  this
+  is
+  a
+  pen.

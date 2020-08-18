@@ -1,0 +1,26 @@
+# リーダーである tanaka さんのシフトが 2 日間、
+# スタッフである sasaki さんのシフトが 5 日間だったとする
+# - &leader tanaka # アンカー
+# - *leader # エイリアス
+# - &staff tashiro # sasaki さんが tashiro さんに変わった場合
+# - *staff
+# - *staff
+# - *staff
+# - *staff
+
+# 名前とスコアの管理
+# fkoji さんは友達として taguchi さんを持っていて、
+# dotinstall さんは fkoji さんと taguchi さんを友達として持っているとする
+- &taguchi
+  name: taguchi
+  score: 80
+- &fkoji
+  name: fkoji
+  score: 90
+  friends:
+    - *taguchi
+- name: dotinstall
+  score: 100
+  friends:
+    - *taguchi
+    - *fkoji

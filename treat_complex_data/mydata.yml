@@ -1,0 +1,23 @@
+# 配列、ハッシュ
+
+# {"names"=>["taguchi", "fkoji"], "scores"=>[90, 100]}
+
+# names:
+#   - taguchi
+#   - fkoji
+# scores:
+#   - 90
+#   - 100
+
+# names: [taguchi, fkoji]
+# scores: [90, 100]
+
+# [{"name"=>"taguchi", "score"=>90}, {"name"=>"fkoji", "score"=>100}]
+
+# - name: taguchi
+#   score: 90
+# - name: fkoji
+#   score: 100
+
+- {name: taguchi, score: 90}
+- {name: fkoji, score: 100}
